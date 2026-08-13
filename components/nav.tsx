@@ -35,7 +35,7 @@ export function Nav() {
 
             <div className="lg:absolute lg:top-1/2 uppercase lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 md:flex hidden">
               <Button asChild variant={"ghost"} className="text-muted-foreground text-xs">
-                <Link href={"/#about"}>About</Link>
+                <Link href={"/#how-it-works"}>How It Works</Link>
               </Button>
               <Button asChild variant={"ghost"} className="text-muted-foreground text-xs">
                 <Link href={"/#testimonial"}>Testimonial</Link>
@@ -128,7 +128,7 @@ export function Nav() {
                   onClick={() => setIsOpen(false)}
                   className="text-muted-foreground uppercase"
                 >
-                  <Link href={"/#about"}>About</Link>
+                  <Link href={"/#how-it-works"}>How It Works</Link>
                 </Button>
                 <Button
                   asChild
