@@ -33,14 +33,14 @@ export function Hero() {
       <motion.div variants={FADE_UP_ANIMATION_VARIANTS}>
         <Badge variant={"secondary"}>
           <div className="size-1 rounded-full bg-muted-foreground mr-2" />
-          Introducing gibwork
+          The onchain work marketplace
           <div className="size-1 rounded-full bg-muted-foreground ml-2" />
         </Badge>
       </motion.div>
 
       <motion.div variants={FADE_UP_ANIMATION_VARIANTS} className="relative z-0">
         <SparklesText
-          text="Find Talent, Find Work"
+          text="Find Work. Find Talent. Get Things Done."
           className="font-semibold text-5xl sm:text-6xl mt-4"
         />
       </motion.div>
@@ -49,18 +49,31 @@ export function Hero() {
         variants={FADE_UP_ANIMATION_VARIANTS}
         className="max-w-2xl mt-4 w-full sm:text-lg text-muted-foreground"
       >
-        Whether you&apos;re searching for your next gig or seeking skilled individuals, our platform
-        connects you with the perfect match.
+        Gibwork connects skilled people with opportunities to earn, collaborate, 
+        and get paid for completing real work.
       </motion.p>
 
-      <motion.div variants={FADE_UP_ANIMATION_VARIANTS}>
-        <Button className="group mt-8" asChild>
-          <Link href={siteConfig.appUrl} target="_blank">
-            Get Started For Free
-            <ArrowRight className="size-0 group-hover:size-5 transition-all -ml-2 group-hover:ml-0" />
-          </Link>
-        </Button>
-      </motion.div>
+      <motion.div
+  variants={FADE_UP_ANIMATION_VARIANTS}
+  className="flex flex-col sm:flex-row items-center justify-center gap-3 mt-8"
+>
+  <Button className="group" asChild>
+    <Link href={siteConfig.appUrl} target="_blank">
+      Start Earning
+      <ArrowRight className="size-0 group-hover:size-5 transition-all -ml-2 group-hover:ml-0" />
+    </Link>
+  </Button>
+
+  <Button variant="outline" asChild>
+    <Link
+      href="https://docs.gib.work/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      Learn How It Works
+    </Link>
+  </Button>
+</motion.div>
 
       <motion.div
         variants={FADE_UP_ANIMATION_VARIANTS}
