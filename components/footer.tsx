@@ -19,9 +19,9 @@ export function Footer() {
               <Image alt="" src={logo} className="size-10 rounded-md bg-muted" />
               <p className="font-bold text-2xl">gibwork</p>
             </div>
-            <h2 className="font-semibold text-2xl sm:text-3xl mt-4">Join our community</h2>
+            <h2 className="font-semibold text-2xl sm:text-3xl mt-4">Get started with Gibwork</h2>
             <p className="text-muted-foreground sm:text-base text-sm">
-              Meet like-minded people and find work opportunities easily.
+              Find work opportunities, post tasks, and connect with skilled contributors.
             </p>
           </div>
 
@@ -29,10 +29,10 @@ export function Footer() {
             <div className="text-sm flex flex-col gap-2 items-start">
               <p className="font-semibold">Quick links</p>
               <Link
-                href={"/#about"}
+                href={"/#how-it-works"}
                 className="text-muted-foreground transition-all hover:text-foreground group"
               >
-                About
+                How It Works
                 <ArrowRight className="inline-block size-4 group-hover:scale-100 scale-0 transition-all ml-1" />
               </Link>
 
