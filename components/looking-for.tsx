@@ -52,10 +52,10 @@ export function LookingFor() {
         >
           <TabsList className="mx-auto rounded-full">
             <TabsTrigger className="rounded-full px-4" value="1">
-              Looking for Help
+              I Need Help
             </TabsTrigger>
             <TabsTrigger className="rounded-full px-4" value="2">
-              Looking for Work
+              I Want to Work
             </TabsTrigger>
           </TabsList>
         </motion.div>
@@ -78,15 +78,15 @@ export function LookingFor() {
               variants={FADE_UP_ANIMATION_VARIANTS}
               className="text-3xl sm:text-4xl text-center font-semibold"
             >
-              Get help from an expert
+              Get the help you need
             </motion.h2>
 
             <motion.p
               variants={FADE_UP_ANIMATION_VARIANTS}
               className="text-center mt-2 text-muted-foreground"
             >
-              Create work for others to complete and get the support you need to
-              achieve your goals.
+              Post a bounty, task, or service and connect with skilled people
+              who can get the work done.
             </motion.p>
 
             <motion.div
@@ -114,7 +114,7 @@ export function LookingFor() {
                 <CardHeader className="border-t">
                   <CardTitle className="text-lg">Open Source Bounty</CardTitle>
                   <CardDescription>
-                    Incentivize a pull request made from a Github issue.
+                    Reward contributors for solving issues and submitting pull requests.
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -130,7 +130,7 @@ export function LookingFor() {
                 <CardHeader className="border-t">
                   <CardTitle className="text-lg">Simple Task</CardTitle>
                   <CardDescription>
-                    Small tasks achievable in a few hours.
+                    Post smaller jobs that can be completed in a few hours.
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -145,8 +145,7 @@ export function LookingFor() {
                 <CardHeader className="border-t">
                   <CardTitle className="text-lg">Services</CardTitle>
                   <CardDescription>
-                    Offer your skills and connect with users for custom
-                    services.
+                    Hire skilled people for custom work that doesn't fit a standard task.
                   </CardDescription>
                 </CardHeader>
               </Card>
@@ -172,14 +171,14 @@ export function LookingFor() {
               variants={FADE_UP_ANIMATION_VARIANTS}
               className="text-3xl sm:text-4xl text-center font-semibold"
             >
-              Get paid for your expertise
+              Turn your skills into paid work
             </motion.h2>
             <motion.p
               variants={FADE_UP_ANIMATION_VARIANTS}
               className="text-center mt-2 text-muted-foreground"
             >
-              Discover work opportunities that you could do, complete the work,
-              and start earning.
+              Find opportunities that match your skills, complete the work,
+              and get paid.
             </motion.p>
 
             <motion.div
